@@ -1,0 +1,36 @@
+dic 21, 2016 6:59:03 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:59:03 AM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:59:03 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1592d22')
+dic 21, 2016 6:59:04 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:59:04 AM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:59:04 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1e56017')
+dic 21, 2016 6:59:05 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:59:05 AM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:59:05 AM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@340199')
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@10757d5')
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:37:11 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4d169c')
+dic 21, 2016 6:37:12 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: contextInitialized()
+dic 21, 2016 6:37:12 PM org.apache.catalina.core.ApplicationContext log
+Información: SessionListener: contextInitialized()
+dic 21, 2016 6:37:12 PM org.apache.catalina.core.ApplicationContext log
+Información: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@f7b10b')

@@ -1,0 +1,11 @@
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\bin\Debug\CalcSpecch.exe.config
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\CalcSpecch.exe
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\CalcSpecch.xml
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\CalcSpecch.pdb
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\bin\Debug\CalcSpecch.exe
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\bin\Debug\CalcSpecch.pdb
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\bin\Debug\CalcSpecch.xml
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\obj\x86\Debug\MOTRIZ.vbproj.GenerateResource.Cache
+C:\Users\admin\OneDrive\TONI\PROY\MOTRIZ\bin\Debug\MOTRIS.exe.config

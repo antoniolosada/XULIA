@@ -1,0 +1,52 @@
+nov 11, 2016 5:47:50 PM org.apache.catalina.core.AprLifecycleListener init
+Información: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Skype\Phone\;.
+nov 11, 2016 5:47:51 PM org.apache.coyote.AbstractProtocol init
+Información: Initializing ProtocolHandler ["http-bio-8080"]
+nov 11, 2016 5:47:51 PM org.apache.coyote.AbstractProtocol init
+Información: Initializing ProtocolHandler ["http-bio-8443"]
+nov 11, 2016 5:47:52 PM org.apache.coyote.AbstractProtocol init
+Información: Initializing ProtocolHandler ["ajp-bio-8009"]
+nov 11, 2016 5:47:52 PM org.apache.catalina.startup.Catalina load
+Información: Initialization processed in 1769 ms
+nov 11, 2016 5:47:52 PM org.apache.catalina.core.StandardService startInternal
+Información: Arrancando servicio Catalina
+nov 11, 2016 5:47:52 PM org.apache.catalina.core.StandardEngine startInternal
+Información: Starting Servlet Engine: Apache Tomcat/7.0.32
+nov 11, 2016 5:47:52 PM org.apache.catalina.startup.HostConfig deployWAR
+Información: Despliegue del archivo F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\IRIS.war de la aplicación web
+nov 11, 2016 5:47:52 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+Información: validateJarFile(F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\IRIS\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.TaglibUriRule body
+Información: TLD skipped. URI: /SimpleTagLibrary is already defined
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.TaglibUriRule body
+Información: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.HostConfig deployWAR
+Información: Despliegue del archivo F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\IRISM.war de la aplicación web
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.HostConfig deployWAR
+Información: Despliegue del archivo F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\TomcatJSPExample.war de la aplicación web
+nov 11, 2016 5:47:53 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+Información: validateJarFile(F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\TomcatJSPExample\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.TaglibUriRule body
+Información: TLD skipped. URI: /SimpleTagLibrary is already defined
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.TaglibUriRule body
+Información: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+nov 11, 2016 5:47:53 PM org.apache.catalina.startup.HostConfig deployWAR
+Información: Despliegue del archivo F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\VOZ2.war de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+Información: Despliegue del directorio F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\docs de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+Información: Despliegue del directorio F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\examples de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+Información: Despliegue del directorio F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\host-manager de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+Información: Despliegue del directorio F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\manager de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+Información: Despliegue del directorio F:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Release\t7\webapps\ROOT de la aplicación web
+nov 11, 2016 5:47:54 PM org.apache.coyote.AbstractProtocol start
+Información: Starting ProtocolHandler ["http-bio-8080"]
+nov 11, 2016 5:47:54 PM org.apache.coyote.AbstractProtocol start
+Información: Starting ProtocolHandler ["http-bio-8443"]
+nov 11, 2016 5:47:54 PM org.apache.coyote.AbstractProtocol start
+Información: Starting ProtocolHandler ["ajp-bio-8009"]
+nov 11, 2016 5:47:54 PM org.apache.catalina.startup.Catalina start
+Información: Server startup in 2537 ms

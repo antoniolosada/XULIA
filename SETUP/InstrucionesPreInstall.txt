@@ -1,0 +1,9 @@
+El paquete de Xulia instala los siguiente componentes:
+
+1. Ficheros de Xulia
+2. Tomcat 7
+3. JRE 1.7 32bits
+4. Microsoft Speech 4.0
+5. Net Framework 4.5.1
+
+En caso de que alguno de estos componentes esté instalado en el sistema, el instalador dará la opción de repararlo o eliminarlo. En ese caso podemos pulsar el botón de Cancelar para que no realice ninguna de estas operaciones.

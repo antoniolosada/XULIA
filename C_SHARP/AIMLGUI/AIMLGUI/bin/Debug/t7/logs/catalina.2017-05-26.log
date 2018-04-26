@@ -1,0 +1,370 @@
+may 26, 2017 12:48:05 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files (x86)\ibm\gsk8\bin;C:\Program Files (x86)\Informix Client-SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Oberthur Technologies\AuthentIC Webpack\Dlls;C:\Program Files (x86)\Oberthur Technologies\AuthentIC Webpack\Dlls;C:\Users\alosgon\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\TortoiseSVN\bin;C:\TUXEDO\bin;C:\Users\alosgon\AppData\Local\Microsoft\WindowsApps;C:\Users\alosgon\AppData\Roaming\npm;.
+may 26, 2017 12:48:05 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+may 26, 2017 12:48:05 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8443"]
+may 26, 2017 12:48:06 PM org.apache.tomcat.util.net.jsse.JSSESocketFactory getStore
+GRAVE: No pude cargar almacén de claves de tipo JKS con ruta C:\Users\alosgon/.keystore debido a C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+
+may 26, 2017 12:48:06 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8443"]
+java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+
+may 26, 2017 12:48:06 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: No pude inicializar el conector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:658)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:281)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:450)
+Caused by: org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+may 26, 2017 12:48:06 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+may 26, 2017 12:48:06 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 784 ms
+may 26, 2017 12:48:06 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+may 26, 2017 12:48:06 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.32
+may 26, 2017 12:48:06 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS.war de la aplicación web
+may 26, 2017 12:48:06 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:06 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRISM.war de la aplicación web
+may 26, 2017 12:48:07 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\TomcatJSPExample.war de la aplicación web
+may 26, 2017 12:48:07 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\TomcatJSPExample\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\VOZ2.war de la aplicación web
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\docs de la aplicación web
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\examples de la aplicación web
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\host-manager de la aplicación web
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS (1) de la aplicación web
+may 26, 2017 12:48:08 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS (1)\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:08 PM org.apache.catalina.startup.ContextConfig processAnnotationsJndi
+GRAVE: No puedo procesar el elemento de recurso [jndi:/localhost/IRIS%20(1)/WEB-INF/classes/servletToJsp.class] para las anotaciones
+java.io.FileNotFoundException: jndi:/localhost/IRIS%20(1)/WEB-INF/classes/servletToJsp.class
+	at org.apache.naming.resources.DirContextURLConnection.getInputStream(DirContextURLConnection.java:389)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJndi(ContextConfig.java:2037)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1945)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1303)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1105)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1664)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRISM (1) de la aplicación web
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\manager de la aplicación web
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\ROOT de la aplicación web
+may 26, 2017 12:48:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\VOZ2 (1) de la aplicación web
+may 26, 2017 12:48:10 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+may 26, 2017 12:48:10 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+may 26, 2017 12:48:10 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 3898 ms
+may 26, 2017 12:48:53 PM org.apache.catalina.core.AprLifecycleListener init
+INFORMACIÓN: La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: C:\Program Files (x86)\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\ibm\gsk8\lib;C:\Program Files (x86)\ibm\gsk8\bin;C:\Program Files (x86)\Informix Client-SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Oberthur Technologies\AuthentIC Webpack\Dlls;C:\Program Files (x86)\Oberthur Technologies\AuthentIC Webpack\Dlls;C:\Users\alosgon\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft Emulator Manager\1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\TortoiseSVN\bin;C:\TUXEDO\bin;C:\Users\alosgon\AppData\Local\Microsoft\WindowsApps;C:\Users\alosgon\AppData\Roaming\npm;.
+may 26, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8080"]
+may 26, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-bio-8443"]
+may 26, 2017 12:48:53 PM org.apache.tomcat.util.net.jsse.JSSESocketFactory getStore
+GRAVE: No pude cargar almacén de claves de tipo JKS con ruta C:\Users\alosgon/.keystore debido a C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:672)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+
+may 26, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8443"]
+java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:672)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+
+may 26, 2017 12:48:53 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: No pude inicializar el conector [Connector[HTTP/1.1-8443]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8443]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:559)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:814)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:633)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:672)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:322)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:451)
+Caused by: org.apache.catalina.LifecycleException: Falló la inicialización del manejador de protocolo
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:983)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.io.FileNotFoundException: C:\Users\alosgon\.keystore (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getStore(JSSESocketFactory.java:400)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeystore(JSSESocketFactory.java:306)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:565)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.getKeyManagers(JSSESocketFactory.java:505)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.init(JSSESocketFactory.java:449)
+	at org.apache.tomcat.util.net.jsse.JSSESocketFactory.createSocket(JSSESocketFactory.java:158)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:393)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:610)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:429)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:981)
+	... 13 more
+
+may 26, 2017 12:48:53 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-bio-8009"]
+may 26, 2017 12:48:53 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 495 ms
+may 26, 2017 12:48:53 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+may 26, 2017 12:48:53 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.32
+may 26, 2017 12:48:53 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS.war de la aplicación web
+may 26, 2017 12:48:53 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:54 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRISM.war de la aplicación web
+may 26, 2017 12:48:54 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\TomcatJSPExample.war de la aplicación web
+may 26, 2017 12:48:54 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\TomcatJSPExample\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.HostConfig deployWAR
+INFORMACIÓN: Despliegue del archivo C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\VOZ2.war de la aplicación web
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\docs de la aplicación web
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\examples de la aplicación web
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\host-manager de la aplicación web
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS (1) de la aplicación web
+may 26, 2017 12:48:55 PM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFORMACIÓN: validateJarFile(C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRIS (1)\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 2.3, section 9.7.2. Offending class: javax/servlet/Servlet.class
+may 26, 2017 12:48:55 PM org.apache.catalina.startup.ContextConfig processAnnotationsJndi
+GRAVE: No puedo procesar el elemento de recurso [jndi:/localhost/IRIS%20(1)/WEB-INF/classes/servletToJsp.class] para las anotaciones
+java.io.FileNotFoundException: jndi:/localhost/IRIS%20(1)/WEB-INF/classes/servletToJsp.class
+	at org.apache.naming.resources.DirContextURLConnection.getInputStream(DirContextURLConnection.java:389)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsJndi(ContextConfig.java:2037)
+	at org.apache.catalina.startup.ContextConfig.processAnnotationsUrl(ContextConfig.java:1945)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1303)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:878)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:369)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:119)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:90)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5173)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1105)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1664)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+may 26, 2017 12:48:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: http://jakarta.apache.org/tomcat/example-taglib is already defined
+may 26, 2017 12:48:56 PM org.apache.catalina.startup.TaglibUriRule body
+INFORMACIÓN: TLD skipped. URI: /SimpleTagLibrary is already defined
+may 26, 2017 12:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\IRISM (1) de la aplicación web
+may 26, 2017 12:48:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\manager de la aplicación web
+may 26, 2017 12:48:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\ROOT de la aplicación web
+may 26, 2017 12:48:57 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\GOOGLEDRIVE\TONI\PROY\XULIA\C_SHARP\AIMLGUI\AIMLGUI\bin\Debug\t7\webapps\VOZ2 (1) de la aplicación web
+may 26, 2017 12:48:57 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-bio-8080"]
+may 26, 2017 12:48:57 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-bio-8009"]
+may 26, 2017 12:48:57 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 4101 ms

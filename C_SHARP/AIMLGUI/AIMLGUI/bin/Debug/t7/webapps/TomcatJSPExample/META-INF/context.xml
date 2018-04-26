@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="">
+  <Resource Name="jdbc/escrutinio" auth="Container" driverClassName="sun.jdbc.odbc.JdbcOdbcDriver" maxActive="100" maxIdle="30" maxWait="-1" password="" type="javax.sql.DataSource" url="jdbc:odbc:escrutinio" username=""/>
+</Context>

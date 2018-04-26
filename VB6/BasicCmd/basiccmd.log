@@ -1,0 +1,7 @@
+Line 171: Class MSWinsockLib.Winsock of control sock was not a loaded control class.
+Line 187: Class HSRLibCtl.Vcommand of control Vcommand1 was not a loaded control class.
+Line 174: The property name _ExtentX in sock is invalid.
+Line 175: The property name _ExtentY in sock is invalid.
+Line 176: The property name _Version in sock is invalid.
+Line 177: The property name LocalPort in sock is invalid.
+Line 190: The property name OleObjectBlob in Vcommand1 is invalid.
